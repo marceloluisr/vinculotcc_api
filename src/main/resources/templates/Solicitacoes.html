@@ -30,7 +30,9 @@
             <div class="container">
                 <p>Selecione o tcc abaixo:</p>
                 <form method="GET" action="/professores/1/solicitacoes">
-
+                    <div class="alert alert-info" th:if="${!#strings.isEmpty(msgProfessor)}">
+                        <span th:text="${msgProfessor}"></span>
+                    </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h3 class="panel-title">Solicitações</h3>
@@ -98,7 +100,7 @@
                                         <!--<td th:text="${professor.titulacao}"></td>-->
                                     </tr>
                                     <tr>
-                                        <td colspan="6" th:if="${#lists.isEmpty(solicitacoes)}">Nenhum solicitacao foi encontrada</td>
+                                        <!--<td colspan="6" th:if="${#lists.isEmpty(solicitacoes)}">Nenhum solicitacao foi encontrada</td>-->
                                     </tr>
                                 </tbody>
                             </table>

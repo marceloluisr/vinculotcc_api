@@ -25,8 +25,12 @@
 
         <div class="container col-lg-6 col-md-10 col-sm-10">
             <div class="text-center mt-3 mb-4 pt-5">
-                <h1>Sua solicitação foi enviada!</h1> 
-                <a class="d-flex" style="position: absolute; left: 19.9rem;" th:href="@{/professores/pesquisar/{id_aluno}(id_aluno = ${id})}">Voltar para pesquisa</a>
+                <!--<h1>Sua solicitação foi enviada!</h1>-->
+                <div class="alert alert-info" th:if="${!#strings.isEmpty(mensagem)}">
+                    <span th:text="${mensagem}"></span>
+                </div>  
+                <a class="d-flex" style="position: absolute; left: 19.9rem;" th:href="@{/professores/pesquisar/{id_aluno}(id_aluno = ${id})}">Voltar para buscador</a><br>
+                <a class="d-flex" style="position: absolute; left: 19.9rem;" th:href="@{/alunos/{id_aluno}/entrada(id_aluno=${id})}">Ver caixa de entrada</a>
             </div>
         </div>
 

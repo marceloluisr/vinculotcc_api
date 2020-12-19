@@ -48,6 +48,7 @@
                                         <th>Tema</th>
                                         <th>Área</th>
                                         <th>Orientador</th>
+                                        <th>Matricula</th>
                                         <th>Status</th>
 
 
@@ -62,6 +63,7 @@
                                         <td th:text="${tcc.tema}"></td>
                                         <td th:text="${tcc.area}"></td>
                                         <td th:text="${tcc.professor.nome}"></td>
+                                        <td th:text="${tcc.professor.matricula}"></td>
                                         <!--<td th:text="${tcc.status}"></td>-->
                                         <!-- se é pendente -->
                                         <td class="text-center" th:if="${tcc.status.descricao == 'Pendente'}">
