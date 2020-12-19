@@ -1,4 +1,4 @@
-package com.ifma.vinculotcc_api.service;
+package com.ifma.vinculotcc_api.services;
 import java.util.Optional;
 import org.springframework.stereotype.Service;
 

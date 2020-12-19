@@ -7,9 +7,9 @@ import com.ifma.vinculotcc_api.models.Aluno;
 import com.ifma.vinculotcc_api.models.Professor;
 import com.ifma.vinculotcc_api.models.Tcc;
 import com.ifma.vinculotcc_api.models.enums.StatusTCC;
-import com.ifma.vinculotcc_api.service.AlunoService;
-import com.ifma.vinculotcc_api.service.ProfessorService;
-import com.ifma.vinculotcc_api.service.TccService;
+import com.ifma.vinculotcc_api.services.AlunoService;
+import com.ifma.vinculotcc_api.services.ProfessorService;
+import com.ifma.vinculotcc_api.services.TccService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -3,7 +3,7 @@ package com.ifma.vinculotcc_api.controllers;
 import java.util.Optional;
 
 import com.ifma.vinculotcc_api.models.Aluno;
-import com.ifma.vinculotcc_api.service.AlunoService;
+import com.ifma.vinculotcc_api.services.AlunoService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

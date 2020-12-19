@@ -7,7 +7,7 @@ import java.util.Set;
 import com.ifma.vinculotcc_api.models.Professor;
 import com.ifma.vinculotcc_api.models.Tcc;
 import com.ifma.vinculotcc_api.repositories.filters.ProfessorFilter;
-import com.ifma.vinculotcc_api.service.ProfessorService;
+import com.ifma.vinculotcc_api.services.ProfessorService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
