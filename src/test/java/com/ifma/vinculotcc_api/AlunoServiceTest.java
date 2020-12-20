@@ -11,7 +11,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 public class AlunoServiceTest {
-    /* O tcc deve ser null quando cadastrar um novo aluno no sistema */
+    /* O tcc deve ser null quando cadastrar um novo aluno no sistema. Isso 
+    vai retornar um erro. */
     @Autowired
     AlunoService alunoService;
 
