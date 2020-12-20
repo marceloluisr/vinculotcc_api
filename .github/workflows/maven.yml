@@ -5,9 +5,9 @@ name: action_ci
 
 on:
   push:
-    branches: [ master ]
+    branches: [ teste ]
   pull_request:
-    branches: [ master ]
+    branches: [ teste ]
 
 jobs:
   build:
